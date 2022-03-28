@@ -4,9 +4,16 @@ body {
 	padding: auto;
 }
 
+/* Header */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
 	text-shadow: 1px 1px rgb(10, 10, 10);
+	margin-bottom: 10px;
+	background: black;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	border: 1px solid black;
 }
 
 p {
@@ -22,16 +29,7 @@ p {
 	margin: auto;
 	padding: 15px;
 	height: 1000px;
-	
-}
-
-/* Header */
-header {
-	background: black;
-	color: white;
-	padding: 2px;
-	text-align: center;
-	border: 1px solid black;
+	margin-bottom: 10px;
 }
 
 /* Navbar */
@@ -43,7 +41,7 @@ header {
 	 left: 0;
 	 top: 0;
 	 z-index: 1;
-	 
+	 margin-bottom: 10px;
 } 
 
  nav a {
@@ -53,6 +51,8 @@ header {
 	 padding: 5px;
 	 text-decoration: none;
 	 font-family: sans-serif;
+	 float: right;
+	margin: 5px;
  }
 
 nav a:hover {
@@ -63,9 +63,10 @@ nav a:hover {
  .hero {
 	 border: 1px solid black;
 	 background-color: gainsboro;
-	 background-image: url('/img/fabian-quintero-UWQP2mh5YJI-unsplash.jpg');
+	 background-image: transparent;
 	 height: 400px;
 	 background-position: bottom right;
+	 margin-bottom: 10px;
  }
 
  .text-back-hero {
@@ -74,8 +75,9 @@ nav a:hover {
 	text-align: center;
 	display:inline-block;
 	position:relative;
-	top: 240px;
+	top: -150px;
 	left: 50px;
+	margin-left: 150px;
 }
 
 /* Main Content */
@@ -85,6 +87,7 @@ nav a:hover {
 	height: 400px;
 	padding: 10px;
 	border: 1px solid black;
+	margin-bottom: 10px;
 }
 
 .column img {
@@ -93,10 +96,22 @@ nav a:hover {
 	padding-left: 10px;
 }
 
-.col-two {
-	background-color: gainsboro;
-	background-image: url('/img/beach-sunset.jpg');
+.img {
+	height: 200px;
+	width: 200px;
 }
+
+.col-one {
+	background-color: transparent;
+}
+
+.col-two {
+background-color: transparent;
+}
+
+.col-three {
+	background-color: transparent;
+	}
 
 .text-back {
 	background-color: rgb(255, 255, 255,0.3);
@@ -114,6 +129,22 @@ footer {
 }
 
 /* icons */
-.fa-dog {
+.fa-hammer {
+	color: white;
+}
+
+.fa-facebook {
+	color: white;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+}
+
+.fa-snapchat {
 	color: white;
 }
