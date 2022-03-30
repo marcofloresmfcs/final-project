@@ -28,7 +28,7 @@ p {
 	background-color: white;
 	margin: auto;
 	padding: 15px;
-	height: 1000px;
+	height: 1100px;
 	margin-bottom: 10px;
 }
 
@@ -147,4 +147,13 @@ footer {
 
 .fa-snapchat {
 	color: white;
+}
+
+/* forms */
+input[type=text] input[type=email], 
+textarea {
+	width: 80%;
+	padding: -25px;
+	box-sizing: border-box;
+	border: 1px solid rgb(10, 10, 10);
 }
