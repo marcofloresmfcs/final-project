@@ -1,6 +1,6 @@
 body {
-	background-color: darkgray;
-	margin: auto;
+	background: rgb(184,115,51);
+	background: linear-gradient(0deg, rgba(184,115,51,1) 0%, rgba(9,107,71,1) 100%);
 	padding: auto;
 }
 
@@ -9,11 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
 	text-shadow: 1px 1px rgb(10, 10, 10);
 	margin-bottom: 10px;
-	background: black;
-	color: white;
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	padding: 2px;
 	text-align: center;
 	border: 1px solid black;
+	box-shadow: 4px 8px 10px rgb(13, 58, 13);
 }
 
 p {
@@ -25,7 +26,7 @@ p {
 /* Content wrapper */
 .container {
 	width: 1000px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
 	height: 1100px;
@@ -34,8 +35,10 @@ p {
 
 /* Navbar */
  nav {
+	background: rgb(184,115,51,0.725);
+	background: linear-gradient(0deg, rgba(184,115,51,0.725) 0%, rgba(9,107,71,0.725) 100%);
 	 padding: 12px;
-	 border: 1px solid black;
+	 border: 1px solid rgb(0, 0, 0);
 	 /* text-align: left; */
 	 position: sticky;
 	 left: 0;
@@ -44,25 +47,47 @@ p {
 	 margin-bottom: 10px;
 } 
 
- nav a {
-	 padding-right: 12px;
-	 color: white;
-	 background-color: black;
-	 padding: 5px;
-	 text-decoration: none;
-	 font-family: sans-serif;
-	 float: right;
-	margin: 5px;
- }
+ul {
+	list-style-type: none;
+	float: right;
+}
 
-nav a:hover {
-	background-color: darkgray;	
+ul li {
+	background-color: rgb(12, 7, 22);
+	box-shadow: 4px 8px 10px rgb(169,169,169);
+	padding: 15px;
+	margin-bottom: 10px;
+	/* border-radius: 20px; */
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+ul li:hover {
+	background: rgb(184,115,51);
+	background: linear-gradient(0deg, rgba(184,115,51,1) 0%, rgba(9,107,71,1) 100%);
+}
+
+ul li a:hover {
+	color: rgb(37, 20, 78);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+	padding-top: 5px;
+	box-shadow: 4px 8px 10px rgb(13, 58, 13);
+	height: 80px;
+	width: 100px;
 }
 
  /* Hero */
  .hero {
-	 border: 1px solid black;
-	 background-color: gainsboro;
+	 border: 1px solid rgb(0, 0, 0);
+	 background-color: rgb(220, 220, 220);
 	 background-image: transparent;
 	 height: 400px;
 	 background-position: bottom right;
@@ -86,7 +111,7 @@ nav a:hover {
 	width: 478px;
 	height: 400px;
 	padding: 10px;
-	border: 1px solid black;
+	border: 1px solid rgb(0, 0, 0);
 	margin-bottom: 10px;
 }
 
@@ -102,11 +127,11 @@ nav a:hover {
 }
 
 .col-one {
-	background-color: transparent;
+	background-color: rgb(184,115,51);
 }
 
 .col-two {
-background-color: transparent;
+background-color: rgb(184,115,51,0.5);
 }
 
 .col-three {
@@ -122,31 +147,31 @@ background-color: transparent;
 footer {
 	clear: both;
 	padding: px;
-	border: 1px solid black;
+	border: 1px solid rgb(0, 0, 0);
 	text-align: center;
-	background-color: black;
-	color: white;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 /* icons */
 .fa-hammer {
-	color: white;
+	color: rgb(207, 207, 207);
 }
 
 .fa-facebook {
-	color: white;
+	color: rgb(19, 21, 167);
 }
 
 .fa-twitter {
-	color: white;
+	color: rgb(29, 161, 242);
 }
 
 .fa-instagram {
-	color: white;
+	color: rgb( 138, 58, 185);
 }
 
 .fa-snapchat {
-	color: white;
+	color: rgb(255 252 0);
 }
 
 /* forms */
