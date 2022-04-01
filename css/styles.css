@@ -1,11 +1,16 @@
 body {
-	background: rgb(184,115,51);
-	background: linear-gradient(0deg, rgba(184,115,51,1) 0%, rgba(9,107,71,1) 100%);
+	background: rgb(184, 115, 51);
+	background: linear-gradient(0deg, rgba(184, 115, 51, 1) 0%, rgba(9, 107, 71, 1) 100%);
 	padding: auto;
 }
 
 /* Header */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Roboto Slab', serif;
 	text-shadow: 1px 1px rgb(10, 10, 10);
 	margin-bottom: 10px;
@@ -29,23 +34,23 @@ p {
 	background-color: rgb(255, 255, 255);
 	margin: auto;
 	padding: 15px;
-	height: 1350px;
+	height: 1327px;
 	margin-bottom: 10px;
 }
 
 /* Navbar */
- nav {
-	background: rgb(184,115,51,0.725);
-	background: linear-gradient(0deg, rgba(184,115,51,0.725) 0%, rgba(9,107,71,0.725) 100%);
-	 padding: 12px;
-	 border: 1px solid rgb(0, 0, 0);
-	 /* text-align: left; */
-	 position: sticky;
-	 left: 0;
-	 top: 0;
-	 z-index: 1;
-	 margin-bottom: 10px;
-} 
+nav {
+	background: rgb(184, 115, 51, 0.725);
+	background: linear-gradient(0deg, rgba(184, 115, 51, 0.725) 0%, rgba(9, 107, 71, 0.725) 100%);
+	padding: 12px;
+	border: 1px solid rgb(0, 0, 0);
+	/* text-align: left; */
+	position: sticky;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	margin-bottom: 10px;
+}
 
 ul {
 	list-style-type: none;
@@ -54,7 +59,7 @@ ul {
 
 ul li {
 	background-color: rgb(12, 7, 22);
-	box-shadow: 4px 8px 10px rgb(169,169,169);
+	box-shadow: 4px 8px 10px rgb(169, 169, 169);
 	padding: 15px;
 	margin-bottom: 10px;
 	/* border-radius: 20px; */
@@ -67,8 +72,8 @@ ul li a {
 }
 
 ul li:hover {
-	background: rgb(184,115,51);
-	background: linear-gradient(0deg, rgba(184,115,51,1) 0%, rgba(9,107,71,1) 100%);
+	background: rgb(184, 115, 51);
+	background: linear-gradient(0deg, rgba(184, 115, 51, 1) 0%, rgba(9, 107, 71, 1) 100%);
 }
 
 ul li a:hover {
@@ -84,22 +89,22 @@ ul li a:hover {
 	width: 100px;
 }
 
- /* Hero */
- .hero {
-	 border: 1px solid rgb(0, 0, 0);
-	 background-color: rgb(220, 220, 220);
-	 background-image: transparent;
-	 height: 400px;
-	 background-position: bottom right;
-	 margin-bottom: 10px;
- }
+/* Hero */
+.hero {
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+	background-image: transparent;
+	height: 400px;
+	background-position: bottom right;
+	margin-bottom: 10px;
+}
 
- .text-back-hero {
-	background-color: rgb(255, 255, 255,0.5);
+.text-back-hero {
+	background-color: rgb(255, 255, 255, 0.5);
 	padding: 12px 50px;
 	text-align: center;
-	display:inline-block;
-	position:relative;
+	display: inline-block;
+	position: relative;
 	top: -150px;
 	left: 50px;
 	margin-left: 150px;
@@ -127,19 +132,19 @@ ul li a:hover {
 }
 
 .col-one {
-	background-color: rgb(184,115,51);
+	background-color: rgb(184, 115, 51);
 }
 
 .col-two {
-background-color: rgb(184,115,51,0.5);
+	background-color: rgb(184, 115, 51, 0.5);
 }
 
 .col-three {
 	background-color: transparent;
-	}
+}
 
 .text-back {
-	background-color: rgb(255, 255, 255,0.3);
+	background-color: rgb(255, 255, 255, 0.3);
 	padding: 2px 10px;
 }
 
@@ -151,7 +156,7 @@ footer {
 	text-align: center;
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
-	
+
 }
 
 .privandterm {
@@ -176,7 +181,7 @@ footer {
 }
 
 .fa-instagram {
-	color: rgb( 138, 58, 185);
+	color: rgb(138, 58, 185);
 }
 
 .fa-snapchat {
@@ -184,7 +189,7 @@ footer {
 }
 
 /* forms */
-input[type=text] input[type=email], 
+input[type=text] input[type=email],
 textarea {
 	width: 80%;
 	padding: -25px;
